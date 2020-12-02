@@ -82,6 +82,7 @@ p.intro{
 	margin-left: auto;
 	margin-right: auto;
 	width:50%;
+	height:auto;
 	
 }
 .bioHead {
@@ -111,15 +112,17 @@ p.intro{
 	margin-left:50px;
 	margin-right:auto;
 	color:black;
-
-	
 	font:bold;
-
+}
+.danger{
+	float:right;
 }
 
 img.philosophy{
 	
 	box-sizing:border-box;
+	float:right; 
+	margin: 0px 0px 15px 15px;
 	
 
 }
