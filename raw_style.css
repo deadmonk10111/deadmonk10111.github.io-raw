@@ -1,0 +1,199 @@
+
+html, body{
+	background-color:black;
+	margin:2px;
+	padding: 2px;
+}
+html{
+	height: 100%;
+	box-sizing: border-box:;
+}
+body{
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left:20px;
+	padding-right:20px;
+	min-height: 100%;
+	background:url(raw_spiral2.png);
+	background-color:#F1F0EC;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:20%;
+	font-family: 'Roboto Slab', serif;
+	box-sizing: border-box;
+}
+.bio {
+	background-color:white;
+	padding:5px;
+	padding-left:20px;
+	padding-right:20px;
+	border: inset;
+	border-radius:20px;
+	text-align:right;
+	box-sizing:border-box;
+	border-spacing:3px;
+}
+p.intro{
+	font-family: 'Roboto Condensed', san s-serif;
+	text-indent:70px;
+	font-size:17px;
+}
+
+
+.container1{
+	text-align:center;
+	background-color:#BFBFBF;
+	background:linear-gradient(90deg, rgba(18,17,5,1) 0%, rgba(240,240,240,1) 100%);
+	position: relative;
+	box-sizing:border-box;
+	
+}
+
+.RAW{
+	font-size: min(3em,30px);
+	
+	font-family: 'Stalinist One', cursive;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	transform: translate (-50%, -50%);
+
+}
+
+.hypnoheader{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	height:auto;
+	opacity:20%;
+	position: relative;
+	padding-top:10px;
+	padding-bottom:10px;
+	box-sizing:border-box;
+	
+	
+}
+.portrait {
+	padding-top:2%;
+	padding-bottom:2%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	
+}
+.bioHead {
+	font-family: 'Roboto Condensed', san s-serif;
+	text-transform: uppercase;
+	font-size:25px;
+	text-align:center;
+	margin:10px;
+	padding:10px;
+	box-sizing:border-box;
+
+}
+
+
+.list {
+	font-family: 'Roboto Condensed', san s-serif;
+	text-align:left;
+	list-style-type:disc;
+	padding-left: 1em;
+	padding-right: 1em;
+	border:inset;
+	border-radius:20px;
+	background: white;
+	max-width:400px;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:50px;
+	margin-right:auto;
+	color:black;
+
+	
+	font:bold;
+
+}
+
+img.philosophy{
+	
+	box-sizing:border-box;
+	
+
+}
+img.grid{
+	float: center;
+	position:relative;
+	margin: 5px;
+	
+	height:100px;
+	width:70px;
+	box-sizing:border-box;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+img:hover{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+
+}
+.maybe{
+	font-family: 'Roboto Condensed', san s-serif;
+	border:inset;
+	border-radius:20px 20px 20px 20px;
+	background:white;
+	margin-left:10px;
+	margin-right:10px;
+	padding:10px;
+
+}
+.hypnoheader2{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	height:auto;
+	opacity:50%;
+	position: relative;
+	padding-top:15px;
+}
+.footerquote{
+	font-family: 'Righteous' , cursive;
+	text-align:center;
+}
+.row {
+	display:flex;
+	flex-wrap: wrap;
+	padding-right:30px;
+	padding-left:50px;
+	margin-left:auto;
+	margin-right:1%;
+	box-sizing:border-box;
+	
+}
+
+.column {
+	align-items:center;
+
+	padding: 5px 5px;
+	margin-left:auto;
+	margin-right:1%;
+	float:left;
+}
+.column img {
+	margin-top: 8px;
+	
+	padding:3px;
+}
+.column6 img{
+	height:200;
+}
+.column7 img{
+	height:250;
+}
+.column8 img{	
+}
+
+
